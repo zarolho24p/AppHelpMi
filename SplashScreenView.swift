@@ -33,7 +33,6 @@ struct SplashScreenView: View {
                     self.size = 0.9
                     self.opacity = 1.0
                 }
-                
             }
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
